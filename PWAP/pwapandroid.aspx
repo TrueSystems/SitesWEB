@@ -4,7 +4,7 @@
 <head>
 <meta name="author" content="True Systems">
 <meta charset="utf-8">
-<title>PWAP - Automação da força de vendas</title>
+<title>PWAP - Automação da força de vendas no Android</title>
 
 <link rel="stylesheet" type="text/css" href="css/style.min.css">
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
@@ -16,7 +16,7 @@
 
 		<header>
 			<div id="logo">
-				<a class="logo" href="default.aspx"><h1>PWAP - Automação da força de vendas</h1></a>
+				<a class="logo" href="default.aspx"><h1>PWAP - Automação da força de vendas no Android</h1></a>
 			</div>
 			<div id="splash">
 				<img src="images/balao.gif" class="splash" alt="Dê adeus aos erros e aos pedidos em papel">

@@ -4,7 +4,7 @@
 <head>
 <meta name="author" content="True Systems">
 <meta charset="utf-8">
-<title>PWAP - Automação da força de vendas</title>
+<title>PWAP - Automação da força de vendas | Vantagens</title>
 
 <link rel="stylesheet" type="text/css" href="css/style.min.css">
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
