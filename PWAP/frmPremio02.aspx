@@ -4,6 +4,10 @@
 <head>
 <meta name="author" content="True Systems">
 <meta charset="utf-8">
+
+<meta name="description" content="O PWAP é um sistema para a automação da força de vendas que funciona em qualquer celular, e também possui uma versão Android que funciona em smartphones e tablets.">
+<meta name="keywords" content="sistema de força de vendas, automação da força de vendas, força de vendas, automação da força de vendas no android, automação da força de vendas no celular, automação e vendas, software automação da força de vendas, software automação, soluções em mobilidade, dispositivo móvel, sistema, força, venda, gestão, mobilidade, automação, android, palm, pda, solução para força de venda">
+
 <title>PWAP - Automação da força de vendas</title>
 
 <link rel="stylesheet" type="text/css" href="css/style.min.css">
