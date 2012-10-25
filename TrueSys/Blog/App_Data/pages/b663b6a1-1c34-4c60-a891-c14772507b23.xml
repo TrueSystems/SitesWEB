@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <title>Sobre a True Systems</title>
+  <description>The description is used as meta description</description>
+  <content>&lt;p&gt;A True Systems foi fundada em julho de 1995, no Rio de Janeiro, e no mesmo ano, tornou-se Microsoft Certified Partner, na categoria ISV/Software Solutions. &amp;Eacute; uma empresa de desenvolvimento de software, especializada em solu&amp;ccedil;&amp;otilde;es de alta tecnologia para mercados verticais. Desde 1999, vem investindo no desenvolvimento e na pesquisa de aplica&amp;ccedil;&amp;otilde;es m&amp;oacute;veis, independentes de dispositivo e comercializadas como servi&amp;ccedil;o (SaaS). Possui vasta experi&amp;ecirc;ncia no desenho e implementa&amp;ccedil;&amp;atilde;o de aplica&amp;ccedil;&amp;otilde;es m&amp;oacute;veis on-line, real-time, para atender a diversos segmentos do mercado.&lt;/p&gt;
+&lt;p&gt;Para conhecer os produtos da True Systems acesse &lt;a href="http://www.truesys.com"&gt;http://www.truesys.com&lt;/a&gt;&lt;/p&gt;</content>
+  <keywords>Is, added, to, meta, keywords</keywords>
+  <slug>Example-page</slug>
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <datecreated>2007-07-14 08:06:59</datecreated>
+  <datemodified>2011-01-11 11:45:50</datemodified>
+</page>

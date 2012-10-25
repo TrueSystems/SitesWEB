@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <numberofreferrerdays>1</numberofreferrerdays>
+  <showdescriptioninpostlist>False</showdescriptioninpostlist>
+  <authorname>My name</authorname>
+  <trackingscript />
+  <mobiletheme>Mobile</mobiletheme>
+  <blogrollvisibleposts>3</blogrollvisibleposts>
+  <dayscommentsareenabled>0</dayscommentsareenabled>
+  <descriptioncharacters>300</descriptioncharacters>
+  <searchbuttontext>Busca</searchbuttontext>
+  <enablecontactattachments>True</enablecontactattachments>
+  <showlivepreview>True</showlivepreview>
+  <endorsement>http://www.dotnetblogengine.net/syndication.axd</endorsement>
+  <enabletrackbacksend>True</enabletrackbacksend>
+  <emailsubjectprefix>Weblog</emailsubjectprefix>
+  <smtpusername>username</smtpusername>
+  <disqusdevmode>False</disqusdevmode>
+  <enablerating>True</enablerating>
+  <commentsperpage>20</commentsperpage>
+  <iscommentsenabled>False</iscommentsenabled>
+  <description>Tecnologia, Informática, Eletrônicos e o que mais der na cabeça... </description>
+  <moderationtype>Auto</moderationtype>
+  <displaycommentsonrecentposts>True</displaycommentsonrecentposts>
+  <storagelocation>~/App_Data/</storagelocation>
+  <name>True Systems' Blog</name>
+  <email>name@example.com</email>
+  <administratorrole>Administrators</administratorrole>
+  <descriptioncharactersforpostsbytagorcategory>0</descriptioncharactersforpostsbytagorcategory>
+  <sendmailoncomment>True</sendmailoncomment>
+  <showdescriptioninpostlistforpostsbytagorcategory>False</showdescriptioninpostlistforpostsbytagorcategory>
+  <commentwhitelistcount>1</commentwhitelistcount>
+  <htmlheader />
+  <postsperfeed>10</postsperfeed>
+  <useblognameinpagetitles>True</useblognameinpagetitles>
+  <enablepingbackreceive>True</enablepingbackreceive>
+  <enablehttpcompression>True</enablehttpcompression>
+  <numberofrecentposts>10</numberofrecentposts>
+  <culture>Auto</culture>
+  <enablecommentsmoderation>True</enablecommentsmoderation>
+  <enablerelatedposts>True</enablerelatedposts>
+  <smtpserverport>25</smtpserverport>
+  <blogrollupdateminutes>60</blogrollupdateminutes>
+  <enablepingbacksend>True</enablepingbacksend>
+  <enabletrackbackreceive>True</enabletrackbackreceive>
+  <avatar>wavatar</avatar>
+  <smtpserver>mail.example.com</smtpserver>
+  <theme>notepad-chaos</theme>
+  <enableenclosures>False</enableenclosures>
+  <trustauthenticatedusers>True</trustauthenticatedusers>
+  <enableopensearch>True</enableopensearch>
+  <displayratingsonrecentposts>True</displayratingsonrecentposts>
+  <disquswebsitename>YourDisqusWebsite</disquswebsitename>
+  <searchdefaulttext>Insira uma palavra ou APML url</searchdefaulttext>
+  <enablecommentsearch>True</enablecommentsearch>
+  <commentreportmistakes>False</commentreportmistakes>
+  <geocodinglatitude>0</geocodinglatitude>
+  <syndicationformat>Rss</syndicationformat>
+  <geocodinglongitude>0</geocodinglongitude>
+  <timezone>9</timezone>
+  <contactformmessage>&lt;p&gt;Já respondo, deixa só eu buscar mais um café.&lt;/p&gt;</contactformmessage>
+  <enablereferrertracking>False</enablereferrertracking>
+  <showpostnavigation>True</showpostnavigation>
+  <searchcommentlabeltext>Incluir comentários na busca</searchcommentlabeltext>
+  <postsperpage>10</postsperpage>
+  <enablecountryincomments>True</enablecountryincomments>
+  <timestamppostlinks>False</timestamppostlinks>
+  <iscommentnestingenabled>True</iscommentnestingenabled>
+  <numberofrecentcomments>10</numberofrecentcomments>
+  <language>en-US</language>
+  <showpingbacks>True</showpingbacks>
+  <compresswebresource>True</compresswebresource>
+  <alternatefeedurl />
+  <commentblacklistcount>2</commentblacklistcount>
+  <requiresslmetaweblogapi>False</requiresslmetaweblogapi>
+  <removewhitespaceinstylesheets>True</removewhitespaceinstylesheets>
+  <disqusaddcommentstopages>False</disqusaddcommentstopages>
+  <smtppassword>password</smtppassword>
+  <handlewwwsubdomain />
+  <contactthankmessage>&lt;h1&gt;Obrigado&lt;/h1&gt;&lt;p&gt;A mensagem foi enviada.&lt;/p&gt;</contactthankmessage>
+  <fileextension>.aspx</fileextension>
+  <iscocommentenabled>False</iscocommentenabled>
+  <enablessl>False</enablessl>
+  <enableerrorlogging>False</enableerrorlogging>
+  <blogrollmaxlength>23</blogrollmaxlength>
+</settings>

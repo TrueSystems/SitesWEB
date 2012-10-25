@@ -1,0 +1,25 @@
+.txtNormal{color: #666666; font-family: Verdana; font-size: 11px; text-decoration: none;}
+
+.M{display:on}
+
+.E{display:none}
+
+.linkDefault {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; color: #FFFFFF; text-decoration: none}
+
+.td {background-color: #99CCFF}
+
+.tdCinza { background-color: #0099FF}
+
+.gray11 {	color: #000000; font-family: verdana; font-size: 11px; text-decoration: none;}
+
+.blue11bold {color: #0066CC; font-family: verdana; font-size: 11px; font-weight: bold; text-decoration: none;}
+
+.blue11bold:Hover {color: #FF0000; font-family: verdana; font-size: 11px; font-weight: bold; text-decoration: none;}
+
+.txtNormalBold { color: #666666; font-family: Verdana; font-size: 11px; text-decoration: underline; ; font-weight: bold}
+
+.txtcampo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #000000; border: 1px #000000 solid; text-transform: uppercase}
+.txtcampoEmail { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #000000; border: 1px #000000 solid; text-transform: lowercase}
+.txtcampoFocus { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #000000; border: 1px #000000 solid; text-transform: uppercase ; background-color: #0099FF}
+
+.psh {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 9px;	color: #000000;	background-color: #CCCCCC; border: thin solid #000000;}

@@ -1,0 +1,131 @@
+.CampoTextoLogin {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #DFDFDF;
+	border: 0px none;
+	height: 17px;
+}
+.TextoLogin {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+.TextoBox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+}
+.TextoPagina {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.TextoPaginaCinza {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+}
+.TituloBox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FF6600;
+}
+.itemMenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.itemMenuDestacado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #5E5EAE;
+}
+.BarraCinza {
+	background-color: #DFDFDF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6666CC;
+	font-weight: normal;
+
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #6666CC;
+	font-style: normal;
+	text-decoration: none;
+}
+.TextoBranco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.CampoTextoCaixaAlta {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #9999CC;
+	border: 0px none;
+	height: 17px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+.CampoOculto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #9999CC;
+	border: 0px none;
+	height: 17px;
+	color: #FFFFFF;
+	visibility: hidden;
+}
+.CampoTexto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #9999CC;
+	border: 0px none;
+	height: 17px;
+	color: #FFFFFF;
+}
+.FonteErro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FF0000;
+}
+.FonteTitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.lblCampoObrigatorio {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+}.FonteTitulo2 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+li {
+	list-style-type: square;
+	list-style-position: outside;
+
+
+}

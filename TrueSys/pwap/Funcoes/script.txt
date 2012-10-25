@@ -1,0 +1,61 @@
+INSERT INTO WAPSTATUS_PEDIDO (wapstatus_pedido_descricao,wapstatus_pedido_notifica_cliente,wapstatus_pedido_notifica_representante,wapstatus_pedido_ambiente_codigo) VALUES ('INCLUÍDO',1,0,1)
+
+;
+
+INSERT INTO WAPSTATUS_PEDIDO (wapstatus_pedido_descricao,wapstatus_pedido_notifica_cliente,wapstatus_pedido_notifica_representante,wapstatus_pedido_ambiente_codigo) VALUES ('EM PENDÊNCIA',0,0,1)
+
+;
+
+INSERT INTO WAPSTATUS_PEDIDO (wapstatus_pedido_descricao,wapstatus_pedido_notifica_cliente,wapstatus_pedido_notifica_representante,wapstatus_pedido_ambiente_codigo) VALUES ('EM APROVAÇÃO',0,1,1)
+
+;
+
+INSERT INTO WAPSTATUS_PEDIDO (wapstatus_pedido_descricao,wapstatus_pedido_notifica_cliente,wapstatus_pedido_notifica_representante,wapstatus_pedido_ambiente_codigo) VALUES ('APROVADO',1,0,1)
+
+;
+
+INSERT INTO WAPSTATUS_PEDIDO (wapstatus_pedido_descricao,wapstatus_pedido_notifica_cliente,wapstatus_pedido_notifica_representante,wapstatus_pedido_ambiente_codigo) VALUES ('NÃO APROVADO',0,0,1)
+
+;
+
+INSERT INTO WAPSTATUS_PEDIDO (wapstatus_pedido_descricao,wapstatus_pedido_notifica_cliente,wapstatus_pedido_notifica_representante,wapstatus_pedido_ambiente_codigo) VALUES ('VERIFICANDO ESTOQUE',0,0,1)
+
+;
+
+INSERT INTO WAPSTATUS_PEDIDO (wapstatus_pedido_descricao,wapstatus_pedido_notifica_cliente,wapstatus_pedido_notifica_representante,wapstatus_pedido_ambiente_codigo) VALUES ('DESPACHADO',1,1,1)
+
+;
+
+INSERT INTO WAPSTATUS_PEDIDO (wapstatus_pedido_descricao,wapstatus_pedido_notifica_cliente,wapstatus_pedido_notifica_representante,wapstatus_pedido_ambiente_codigo) VALUES ('ENTREGUE',0,0,1)
+
+;
+
+INSERT INTO SEQUENCIAL (sequencial_tabela,sequencial_nr,sequencial_ambiente_codigo) VALUES ('CLIENTE','0','1')
+
+;
+
+INSERT INTO SEQUENCIAL (sequencial_tabela,sequencial_nr,sequencial_ambiente_codigo) VALUES ('WAPPEDIDO','0','1')
+
+;
+
+INSERT INTO CONDCOMERCIAL (condcomercial_descricao, condcomercial_status_codigo,condcomercial_ambiente_codigo) VALUES ('A VISTA',1,1)
+
+;
+
+INSERT INTO DIREITO_USUARIO (direito_usuario_ambiente_codigo,direito_usuario_usuario_codigo,direito_usuario_funcionalidade_codigo) VALUES ('1','1','25001')
+
+;
+
+ 
+
+.
+
+.
+
+.
+
+ 
+
+INSERT INTO DIREITO_USUARIO (direito_usuario_ambiente_codigo,direito_usuario_usuario_codigo,direito_usuario_funcionalidade_codigo) VALUES ('1','1','25030')
+
+;

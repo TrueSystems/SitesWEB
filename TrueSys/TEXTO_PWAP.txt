@@ -1,0 +1,84 @@
+﻿<h2>Veja como é simples !</h2>
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td align="center" style="border: 1px solid black">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="500" id="csSWF1">
+        <param name="movie" value="/videos/PWAP Overview 2010_controller.swf" />
+        <param name="quality" value="best" />
+        <param name="bgcolor" value="#FFFFFF" />
+        <param name="allowfullscreen" value="true" />
+        <param name="scale" value="showall" />
+        <param name="allowscriptaccess" value="always" />
+        <param name="flashvars" value="autostart=false&thumb=images/FirstFrame1.png&thumbscale=45&color=0xFFFFFF,0xFFFFFF&loop=true" />
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="/videos/PWAP Overview 2010_controller.swf" width="640" height="500">
+            <param name="quality" value="best" />
+            <param name="bgcolor" value="#FFFFFF" />
+            <param name="allowfullscreen" value="true" />
+            <param name="scale" value="showall" />
+            <param name="allowscriptaccess" value="always" />
+            <param name="flashvars" value="autostart=false&thumb=images/FirstFrame1.png&thumbscale=45&color=0xFFFFFF,0xFFFFFF&loop=true" />
+        <!--<![endif]-->
+            <div id="noUpdate">
+                <p>The Camtasia Studio video content presented here requires a more recent version of the Adobe Flash Player. If you are using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href="http://www.adobe.com/go/getflashplayer">downloading here</a>.</p>
+            </div>
+        <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+    </object>
+    <!-- Users looking for simple object / embed tags can copy and paste the needed tags below.
+        <object id="csSWF1" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="500" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0">
+            <param name="src" value="/videos/PWAP Overview 2010_controller.swf"/>
+            <param name="bgcolor" value="#FFFFFF"/>
+            <param name="quality" value="best"/>
+            <param name="allowScriptAccess" value="always"/>
+            <param name="allowFullScreen" value="true"/>
+            <param name="scale" value="showall"/>
+            <param name="flashVars" value="autostart=false#&thumb=images/FirstFrame1.png&thumbscale=45&color=0xFFFFFF,0xFFFFFF&loop=true"/>
+            <embed name="csSWF1" src="/videos/PWAP Overview 2010_controller.swf" width="640" height="500" bgcolor="#FFFFFF" quality="best" allowScriptAccess="always" allowFullScreen="true" scale="showall" flashVars="autostart=false&thumb=images/FirstFrame1.png&thumbscale=45&color=0xFFFFFF,0xFFFFFF&loop=true" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+        </object>
+    -->
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="center"  style="border: 1px solid black">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="500" id="csSWF2">
+        <param name="movie" value="/videos/PWAP Demonstracao 2010_controller.swf" />
+        <param name="quality" value="best" />
+        <param name="bgcolor" value="#FFFFFF" />
+        <param name="allowfullscreen" value="true" />
+        <param name="scale" value="showall" />
+        <param name="allowscriptaccess" value="always" />
+        <param name="flashvars" value="autostart=false&thumb=images/FirstFrame2.png&thumbscale=45&color=0xFFFFFF,0xFFFFFF&loop=true" />
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="/videos/PWAP Demonstracao 2010_controller.swf" width="640" height="500">
+            <param name="quality" value="best" />
+            <param name="bgcolor" value="#FFFFFF" />
+            <param name="allowfullscreen" value="true" />
+            <param name="scale" value="showall" />
+            <param name="allowscriptaccess" value="always" />
+            <param name="flashvars" value="autostart=false&thumb=images/FirstFrame2.png&thumbscale=45&color=0xFFFFFF,0xFFFFFF&loop=true" />
+        <!--<![endif]-->
+                <p>The Camtasia Studio video content presented here requires a more recent version of the Adobe Flash Player. If you are using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href="http://www.adobe.com/go/getflashplayer">downloading here</a>.</p>
+        <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+    </object>
+    <!-- Users looking for simple object / embed tags can copy and paste the needed tags below.
+        <object id="csSWF2" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="500" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0">
+            <param name="src" value="/videos/PWAP Demonstracao 2010_controller.swf"/>
+            <param name="bgcolor" value="#FFFFFF"/>
+            <param name="quality" value="best"/>
+            <param name="allowScriptAccess" value="always"/>
+            <param name="allowFullScreen" value="true"/>
+            <param name="scale" value="showall"/>
+            <param name="flashVars" value="autostart=false#&thumb=images/FirstFrame2.png&thumbscale=45&color=0xFFFFFF,0xFFFFFF&loop=true"/>
+            <embed name="csSWF2" src="/videos/PWAP Demonstracao 2010_controller.swf" width="640" height="500" bgcolor="#FFFFFF" quality="best" allowScriptAccess="always" allowFullScreen="true" scale="showall" flashVars="autostart=false&thumb=images/FirstFrame2.png&thumbscale=45&color=0xFFFFFF,0xFFFFFF&loop=true" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+        </object>
+    -->
+</td>
+</tr>
+</table>
