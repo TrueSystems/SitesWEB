@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{0C2CC338-5C70-4905-B0B8-403B31D15BAE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Truesys</RootNamespace>
+    <AssemblyName>Truesys</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Truesys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Truesys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AtualizarNavegador.htm" />
+    <Content Include="Automacao-de-forca-de-vendas.htm" />
+    <Content Include="casos.aspx" />
+    <Content Include="Controles\Box.ascx" />
+    <Content Include="Controles\MenuLateral.ascx" />
+    <Content Include="Controles\MenuTop.ascx" />
+    <Content Include="css\true1024.css" />
+    <Content Include="css\true800.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="erro404.aspx" />
+    <Content Include="FaleConosco.aspx" />
+    <Content Include="flashplayer\Default.htm" />
+    <Content Include="Folder.jpg" />
+    <Content Include="Folder2.jpg" />
+    <Content Include="google8f4942c756f843fb.html" />
+    <Content Include="googlehostedservice.html" />
+    <Content Include="images\active1.gif" />
+    <Content Include="images\activex.gif" />
+    <Content Include="images\androidRadar.png" />
+    <Content Include="images\a_emp1.gif" />
+    <Content Include="images\a_emp2.gif" />
+    <Content Include="images\a_emp3.gif" />
+    <Content Include="images\banana404.gif" />
+    <Content Include="images\bfeed.gif" />
+    <Content Include="images\bhome.gif" />
+    <Content Include="images\bnews.gif" />
+    <Content Include="images\box_crm.gif" />
+    <Content Include="images\box_disponibilidade.gif" />
+    <Content Include="images\box_onflux.gif" />
+    <Content Include="images\box_onfluxradar.gif" />
+    <Content Include="images\box_pwap.gif" />
+    <Content Include="images\box_visitamedica.gif" />
+    <Content Include="images\bservs.gif" />
+    <Content Include="images\bsrch.gif" />
+    <Content Include="images\btnAndroid.gif" />
+    <Content Include="images\btnWeb.gif" />
+    <Content Include="images\btoc.gif" />
+    <Content Include="images\bullet.gif" />
+    <Content Include="images\CartaoBNDES.png" />
+    <Content Include="images\Caso1.jpg" />
+    <Content Include="images\Caso1_mini.jpg" />
+    <Content Include="images\Caso2.jpg" />
+    <Content Include="images\Caso2_mini.jpg" />
+    <Content Include="images\cd.gif" />
+    <Content Include="images\cdtxt.gif" />
+    <Content Include="images\conteudoDownLeft.gif" />
+    <Content Include="images\conteudoDownRight.gif" />
+    <Content Include="images\conteudoLateralDir.gif" />
+    <Content Include="images\conteudoLateralEsq.gif" />
+    <Content Include="images\conteudoUpLeft.gif" />
+    <Content Include="images\conteudoUpRight.gif" />
+    <Content Include="images\div.gif" />
+    <Content Include="images\Ecopaper_BP_v10.jpg" />
+    <Content Include="images\Ecopaper_ENG_v8.jpg" />
+    <Content Include="images\Ecopaper_SPA_v3.jpg" />
+    <Content Include="images\endereco.gif" />
+    <Content Include="images\ESQUEMA_ONFLUX.JPG" />
+    <Content Include="images\ESQUEMA_VISITA_MEDICA.jpg" />
+    <Content Include="images\FaceBook_512x512.png" />
+    <Content Include="images\filmadora.gif" />
+    <Content Include="images\FirstFrame1.png" />
+    <Content Include="images\FirstFrame2.png" />
+    <Content Include="images\frase01.gif" />
+    <Content Include="images\frase02.gif" />
+    <Content Include="images\frase03.gif" />
+    <Content Include="images\frase04.gif" />
+    <Content Include="images\FuncionamentoPwap.JPG" />
+    <Content Include="images\grytxtr5.jpg" />
+    <Content Include="images\hfeed.gif" />
+    <Content Include="images\hhome.gif" />
+    <Content Include="images\hnews.gif" />
+    <Content Include="images\hservs.gif" />
+    <Content Include="images\hsrch.gif" />
+    <Content Include="images\htoc.gif" />
+    <Content Include="images\ie_animated.gif" />
+    <Content Include="images\intra1.jpg" />
+    <Content Include="images\intra2.jpg" />
+    <Content Include="images\KCCLOKD.OCX" />
+    <Content Include="images\links.htm" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\logobulaxml.gif" />
+    <Content Include="images\LogoCRM.gif" />
+    <Content Include="images\LogoONFLUX.gif" />
+    <Content Include="images\logoOnfluxRadar.png" />
+    <Content Include="images\LogoPWAP.gif" />
+    <Content Include="images\LogoTrueSys.gif" />
+    <Content Include="images\LogoVISITAMEDICA.gif" />
+    <Content Include="images\mcs.gif" />
+    <Content Include="images\mcsp_c2.gif" />
+    <Content Include="images\MenuAlto.gif" />
+    <Content Include="images\MenuBaixo.gif" />
+    <Content Include="images\MenuDir.gif" />
+    <Content Include="images\MenuEsq.gif" />
+    <Content Include="images\MenuMeio.gif" />
+    <Content Include="images\mssp.gif" />
+    <Content Include="images\n1c1_line1_1.jpg" />
+    <Content Include="images\n1c1_line1_11.jpg" />
+    <Content Include="images\n1c1_line1_13.jpg" />
+    <Content Include="images\n1c1_line1_3.jpg" />
+    <Content Include="images\n1c1_line1_5.jpg" />
+    <Content Include="images\n1c1_line1_7.jpg" />
+    <Content Include="images\n1c1_line1_9.jpg" />
+    <Content Include="images\parceiroADERJ.jpg" />
+    <Content Include="images\parceiroALTEX.jpg" />
+    <Content Include="images\parceiroASSESPRO.jpg" />
+    <Content Include="images\parceiroBNDES.jpg" />
+    <Content Include="images\parceiroFAPERJ.jpg" />
+    <Content Include="images\parceiroFINEP.jpg" />
+    <Content Include="images\parceiroMICROSOFT.JPG" />
+    <Content Include="images\parceiroRIM.jpg" />
+    <Content Include="images\parceiroRIM_Grande.jpg" />
+    <Content Include="images\PremioCTIA.jpg" />
+    <Content Include="images\premioCust.jpg" />
+    <Content Include="images\PremioRioINFO.jpg" />
+    <Content Include="images\sap_anim.gif" />
+    <Content Include="images\smallnew.gif" />
+    <Content Include="images\sorvete.jpg" />
+    <Content Include="images\spro.gif" />
+    <Content Include="images\terra.gif" />
+    <Content Include="images\topoDir.gif" />
+    <Content Include="images\topoEsq.gif" />
+    <Content Include="images\topoMeio.gif" />
+    <Content Include="images\true.gif" />
+    <Content Include="images\true2.gif" />
+    <Content Include="images\true3.gif" />
+    <Content Include="images\twitter-icon.png" />
+    <Content Include="images\undercon.gif" />
+    <Content Include="images\volta.gif" />
+    <Content Include="images\_News.html" />
+    <Content Include="img\gif\avisoWapLite2.gif" />
+    <Content Include="img\gif\baxter.gif" />
+    <Content Include="img\gif\doit.gif" />
+    <Content Include="img\gif\dot_hfnet.gif" />
+    <Content Include="img\gif\downloadFree.gif" />
+    <Content Include="img\gif\excel.gif" />
+    <Content Include="img\gif\HFpro4.0Banner.gif" />
+    <Content Include="img\gif\HFpro4.0box.gif" />
+    <Content Include="img\gif\img_apagar_registro.gif" />
+    <Content Include="img\gif\img_back_cinza_claro.gif" />
+    <Content Include="img\gif\img_back_cinza_light.gif" />
+    <Content Include="img\gif\img_criar_registro.gif" />
+    <Content Include="img\gif\img_customerLink_small.gif" />
+    <Content Include="img\gif\img_div_textos.gif" />
+    <Content Include="img\gif\img_div_textos1024.gif" />
+    <Content Include="img\gif\img_drpCustomer.gif" />
+    <Content Include="img\gif\img_english_version.gif" />
+    <Content Include="img\gif\img_fim_barra_links.gif" />
+    <Content Include="img\gif\img_flag_brazil.gif" />
+    <Content Include="img\gif\img_flag_eua.gif" />
+    <Content Include="img\gif\img_inicio_barra_links.gif" />
+    <Content Include="img\gif\img_invisivel_15.gif" />
+    <Content Include="img\gif\img_invisivel_2.gif" />
+    <Content Include="img\gif\img_invisivel_8.gif" />
+    <Content Include="img\gif\img_mini_acrobat.gif" />
+    <Content Include="img\gif\img_mini_disk.gif" />
+    <Content Include="img\gif\img_portuguease_version.gif" />
+    <Content Include="img\gif\img_selo_odyssey.gif" />
+    <Content Include="img\gif\img_selo_partner.gif" />
+    <Content Include="img\gif\img_selo_pocket.gif" />
+    <Content Include="img\gif\img_tsbulaxml_small.gif" />
+    <Content Include="img\gif\ing_back_azul_links.gif" />
+    <Content Include="img\gif\logoPdf.gif" />
+    <Content Include="img\gif\minus.gif" />
+    <Content Include="img\gif\no.gif" />
+    <Content Include="img\gif\Noticia.gif" />
+    <Content Include="img\gif\Noticia2.gif" />
+    <Content Include="img\gif\ok.gif" />
+    <Content Include="img\gif\patchdetails2.gif" />
+    <Content Include="img\gif\plus.gif" />
+    <Content Include="img\gif\scanresults.gif" />
+    <Content Include="img\gif\SHV-twostepanime.gif" />
+    <Content Include="img\gif\Spacer-White-10px.gif" />
+    <Content Include="img\gif\str_r1_c1.gif" />
+    <Content Include="img\gif\str_r1_c3.gif" />
+    <Content Include="img\gif\str_r3_c1.gif" />
+    <Content Include="img\gif\titlepage.gif" />
+    <Content Include="img\gif\TpThreat.gif" />
+    <Content Include="img\gif\tsBulaPatches2.gif" />
+    <Content Include="img\gif\tsBulaXML01.gif" />
+    <Content Include="img\gif\tsBulaXML01peq.gif" />
+    <Content Include="img\gif\tsBulaXML02.gif" />
+    <Content Include="img\gif\tsBulaXML02peq.gif" />
+    <Content Include="img\gif\tsBulaXML03.gif" />
+    <Content Include="img\gif\tsBulaXML03peq.gif" />
+    <Content Include="img\gif\tsBulaXML04.gif" />
+    <Content Include="img\gif\tsBulaXML04peq.gif" />
+    <Content Include="img\gif\tsBulaXML05.gif" />
+    <Content Include="img\gif\tsBulaXML05peq.gif" />
+    <Content Include="img\jpg\backMulher1024.jpg" />
+    <Content Include="img\jpg\backMulher800.jpg" />
+    <Content Include="img\jpg\img_back_mulher_abertura.jpg" />
+    <Content Include="img\jpg\img_servicos800.jpg" />
+    <Content Include="img\jpg\img_tecnologia1024.jpg" />
+    <Content Include="img\jpg\img_tecnologia800.jpg" />
+    <Content Include="img\jpg\img_top_degradee_1024.jpg" />
+    <Content Include="img\jpg\odysseyPulando.jpg" />
+    <Content Include="img\jpg\odysseyPulando800.jpg" />
+    <Content Include="img\jpg\P10100012.jpg" />
+    <Content Include="img\jpg\patchdetailsbig.jpg" />
+    <Content Include="img\jpg\scanresultsbig.jpg" />
+    <Content Include="img\jpg\titlepagebig.jpg" />
+    <Content Include="img\jpg\TPThreatbig.jpg" />
+    <Content Include="js\data.js" />
+    <Content Include="js\estilo.js" />
+    <Content Include="js\jquery-1.3.2.js" />
+    <Content Include="js\jquery.haccordion.js" />
+    <Content Include="js\menu.js" />
+    <Content Include="js\MenuMatic_0.68.3.js" />
+    <Content Include="js\niftycube.js" />
+    <Content Include="js\resolucao.js" />
+    <Content Include="js\Scripts.js" />
+    <Content Include="js\swfobject.js" />
+    <Content Include="Newsletter.aspx" />
+    <Content Include="noindex.html" />
+    <Content Include="onFlux.aspx" />
+    <Content Include="onFluxRadar.aspx" />
+    <Content Include="parcerias.aspx" />
+    <Content Include="premios.aspx" />
+    <Content Include="pwap.aspx" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="sitemap.xml" />
+    <Content Include="sobre.aspx" />
+    <Content Include="Style\MenuMatic-ie6.css" />
+    <Content Include="Style\MenuMatic.css" />
+    <Content Include="Style\niftyCorners.css" />
+    <Content Include="Style\sitets.css" />
+    <Content Include="Style\style.css" />
+    <Content Include="suporte.aspx" />
+    <Content Include="Videos\expressInstall.swf" />
+    <Content Include="Videos\PWAP Demonstracao 2010.mp4" />
+    <Content Include="Videos\PWAP Demonstracao 2010_controller.swf" />
+    <Content Include="Videos\PWAP Overview 2010.mp4" />
+    <Content Include="Videos\PWAP Overview 2010_controller.swf" />
+    <Content Include="Videos\PWAPDemonstracao2010.mp4" />
+    <Content Include="Videos\PWAPDemonstracao2010_controller.swf" />
+    <Content Include="Videos\PWAPOverview2010.mp4" />
+    <Content Include="Videos\PWAPOverview2010_controller.swf" />
+    <Content Include="Videos\VideoPwapIntroducao.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="casos.aspx.designer.vb">
+      <DependentUpon>casos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="casos.aspx.vb">
+      <DependentUpon>casos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\Box.ascx.designer.vb">
+      <DependentUpon>Box.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Box.ascx.vb">
+      <DependentUpon>Box.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\MenuLateral.ascx.designer.vb">
+      <DependentUpon>MenuLateral.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\MenuLateral.ascx.vb">
+      <DependentUpon>MenuLateral.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\MenuTop.ascx.designer.vb">
+      <DependentUpon>MenuTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\MenuTop.ascx.vb">
+      <DependentUpon>MenuTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FaleConosco.aspx.designer.vb">
+      <DependentUpon>FaleConosco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FaleConosco.aspx.vb">
+      <DependentUpon>FaleConosco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="newsletter.aspx.designer.vb">
+      <DependentUpon>Newsletter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newsletter.aspx.vb">
+      <DependentUpon>Newsletter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="onflux.aspx.designer.vb">
+      <DependentUpon>onFlux.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="onflux.aspx.vb">
+      <DependentUpon>onFlux.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="onfluxRadar.aspx.designer.vb">
+      <DependentUpon>onFluxRadar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="onfluxRadar.aspx.vb">
+      <DependentUpon>onFluxRadar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas.Master.designer.vb">
+      <DependentUpon>Paginas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas.Master.vb">
+      <DependentUpon>Paginas.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Parcerias.aspx.designer.vb">
+      <DependentUpon>parcerias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Parcerias.aspx.vb">
+      <DependentUpon>parcerias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Premios.aspx.designer.vb">
+      <DependentUpon>premios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Premios.aspx.vb">
+      <DependentUpon>premios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pwap.aspx.designer.vb">
+      <DependentUpon>pwap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pwap.aspx.vb">
+      <DependentUpon>pwap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sobre.aspx.designer.vb">
+      <DependentUpon>sobre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.aspx.vb">
+      <DependentUpon>sobre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suporte.aspx.designer.vb">
+      <DependentUpon>suporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suporte.aspx.vb">
+      <DependentUpon>suporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Videos\VideoPwapIntroducao.aspx.designer.vb">
+      <DependentUpon>VideoPwapIntroducao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Videos\VideoPwapIntroducao.aspx.vb">
+      <DependentUpon>VideoPwapIntroducao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\WS_FTP.LOG" />
+    <Content Include="images\Ecopaper_BP_v11.pdf" />
+    <Content Include="images\Ecopaper_ENG_v10.pdf" />
+    <Content Include="images\Ecopaper_SPA_v4.pdf" />
+    <Content Include="images\WS_FTP.LOG" />
+    <Content Include="img\gif\img_english_version.old" />
+    <Content Include="img\gif\WS_FTP.LOG" />
+    <Content Include="img\gif\_notes\avisoWapLite2.gif.mno" />
+    <Content Include="img\gif\_notes\tsBulaPatches2.gif.mno" />
+    <Content Include="img\jpg\WS_FTP.LOG" />
+    <Content Include="js\WS_FTP.LOG" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\SiteTrueSystems.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Paginas.Master" />
+    <Content Include="Style\WS_FTP.LOG" />
+    <Content Include="Site.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57433/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\bin\SiteTrueSystems.dll
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\bin\SiteTrueSystems.pdb
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\bin\SiteTrueSystems.xml
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Debug\SiteTrueSystems.Resources.resources
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Debug\SiteTrueSystems.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Debug\SiteTrueSystems.dll
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Debug\SiteTrueSystems.xml
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Debug\SiteTrueSystems.pdb

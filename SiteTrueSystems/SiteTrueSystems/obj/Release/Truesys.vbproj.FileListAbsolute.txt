@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\bin\Truesys.dll
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\bin\Truesys.pdb
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\bin\Truesys.xml
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.Resources.resources
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.dll
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.xml
+C:\Users\Administrator\Desktop\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.pdb
+C:\Users\Administrator\Documents\GitHub\SitesWEB\SiteTrueSystems\SiteTrueSystems\bin\Truesys.dll
+C:\Users\Administrator\Documents\GitHub\SitesWEB\SiteTrueSystems\SiteTrueSystems\bin\Truesys.pdb
+C:\Users\Administrator\Documents\GitHub\SitesWEB\SiteTrueSystems\SiteTrueSystems\bin\Truesys.xml
+C:\Users\Administrator\Documents\GitHub\SitesWEB\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.Resources.resources
+C:\Users\Administrator\Documents\GitHub\SitesWEB\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\SitesWEB\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.dll
+C:\Users\Administrator\Documents\GitHub\SitesWEB\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.xml
+C:\Users\Administrator\Documents\GitHub\SitesWEB\SiteTrueSystems\SiteTrueSystems\obj\Release\Truesys.pdb
