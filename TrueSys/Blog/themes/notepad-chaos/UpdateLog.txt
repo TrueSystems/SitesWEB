@@ -1,4 +1,0 @@
-﻿October 17, 2008: 
-    Login link added in footer.
-    Related posts styled
-    
